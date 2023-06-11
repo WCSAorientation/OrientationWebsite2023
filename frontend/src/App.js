@@ -8,6 +8,12 @@ function App() {
 
   return (
       <Router>
+        <head>
+          <link href='https://fonts.googleapis.com/css?family=Outfit' rel='stylesheet'></link>
+          <link rel="preconnect" href="https://fonts.googleapis.com"/>
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+          <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"></link>
+        </head>
           <Routes>
             <Route path="/" element={<Home/>} />
             <Route path="/home" element={<Home/>} />
