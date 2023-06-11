@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Schedule } from './pages/Schedule';
 import { NotFound } from './pages/NotFound';
 import { Home } from './pages/Home';
+import { Sponsors } from './pages/Sponsors';
 
 function App() {
 
@@ -17,8 +18,9 @@ function App() {
           <Routes>
             <Route path="/" element={<Home/>} />
             <Route path="/home" element={<Home/>} />
-            <Route path="/schedule" element={<Schedule/>}/>
-            <Route path="*" element={<NotFound/>}/>
+            <Route path="/schedule" element={<Schedule/>} />
+            <Route path="/sponsors" element={<Sponsors/>} />
+            <Route path="*" element={<NotFound/>} />
           </Routes>
       </Router>
   );
