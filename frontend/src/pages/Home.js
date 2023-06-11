@@ -1,12 +1,10 @@
 import React from 'react';
 import TreeAnimation from '../components/TreeAnimation';
-import { NavBar } from '../components/NavBar';
 
 export function Home() {
   
   return (
       <>
-      <NavBar/>
       <TreeAnimation class='z-0'/>
       <div class='text-center pt-[5%] px-[20%] text-[#182e2e]'>
         <h1 class='font-bold text-7xl'>Woodsworth College Orientation 2023</h1>
