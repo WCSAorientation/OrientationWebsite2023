@@ -14,7 +14,7 @@ class TreeAnimation extends Component {
         <style jsx>{`
           .sun {
             width: 80%;
-            height: 500px;
+            height: 50%;
             opacity: 0;
             background-image: url('./sun.png');
             position: absolute;
@@ -31,7 +31,7 @@ class TreeAnimation extends Component {
             background-image: url('./forest1.png');
             position: absolute;
             animation-name: forest1;
-            animation-duration: .5s;
+            animation-duration: .75s;
             animation-delay: .75s;
             animation-fill-mode: forwards;
             background-size: cover;
@@ -73,10 +73,10 @@ class TreeAnimation extends Component {
           }
           @keyframes sun {
             0%   {opacity: 100; left:10%; bottom:-100px;}
-            100%  {opacity: 100; left:10%; bottom:28%;}
+            100%  {opacity: 100; left:10%; bottom:20%;}
           }
           @keyframes forest1 {
-              0%   {opacity: 100; left:10%; bottom:0px;}
+              0%   {opacity: 100; left:10%; bottom:-100px;}
               100%  {opacity: 100; left:10%; bottom:10%;}
           }
           @keyframes forest2 {

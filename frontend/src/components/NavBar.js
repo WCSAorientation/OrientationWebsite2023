@@ -1,9 +1,11 @@
 import React from 'react';
 
-export function NavBar() {
+export function NavBar({ isDark }) {
   return (
     <>
-    <div class='flex mt-3 pb-2 mx-[10%] justify-center text-lg text-[#182E2E] border-b-2'>
+    <div 
+      class={`flex pt-3 pb-2 mx-[10%] justify-center text-lg border-b-2 ${isDark ? 'text-white border-white' : 'text-[#182E2E]'}`}
+    >
       <h1 class='tracking-wide pr-[45%]'>
         WOODSWORTH
       </h1>

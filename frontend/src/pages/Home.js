@@ -6,7 +6,7 @@ export function Home() {
   
   return (
       <>
-      <NavBar/>
+      <NavBar isDark={false} />
       <TreeAnimation class='z-0'/>
       <div class='text-center pt-[5%] px-[20%] text-[#182e2e]'>
         <h1 class='font-bold text-7xl'>Woodsworth College Orientation 2023</h1>
