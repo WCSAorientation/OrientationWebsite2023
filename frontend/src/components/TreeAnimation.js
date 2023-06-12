@@ -4,12 +4,12 @@ class TreeAnimation extends Component {
   render() {
     return (
     <div>
-      <div class='z-0'>
-        <div class="sun"></div>
-        <div class="forest1"></div>
-        <div class="forest2"></div>
-        <div class="forest3"></div>
-        <div class="forest4"></div>
+      <div className='z-0'>
+        <div className="sun"></div>
+        <div className="forest1"></div>
+        <div className="forest2"></div>
+        <div className="forest3"></div>
+        <div className="forest4"></div>
       </div>
         <style jsx>{`
           .sun {
