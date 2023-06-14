@@ -21,7 +21,7 @@ function TeamTile({ name, position, about, imageName }) {
 
   return (
     <>
-      <div className="relative rounded-l-[12%] overflow-hidden max-w-[50%]">
+      <div className="relative rounded-l-[12%] overflow-hidden max-w-[50%] mb-[12%]">
         <img src={"./person-background.svg"}></img>
         <img src={imageName} className="absolute left-0 bottom-0 max-h-full" />
         <div className="absolute top-0 left-[34%] right-[10%] p-3 pl-100">
