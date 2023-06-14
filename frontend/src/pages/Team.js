@@ -12,14 +12,10 @@ function Team() {
           {teamInfo.map((memberInfo, index) => (
             <TeamTile
             key={index}
-              name="John Doe"
-              position="your orientation position"
-              about={[
-                "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet",
-                "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet",
-                "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet",
-              ]}
-              imageName="person-portrait.png"
+              name={memberInfo.name}
+              position={memberInfo.position}
+              about={memberInfo.about}
+              imageName={memberInfo.imageName}
               isLeftAligned={index % 2 === 0}
             />
           ))}
