@@ -7,7 +7,7 @@ function Team() {
     <>
       <body className="bg-[#182E2E] min-h-screen">
         <NavBar isDark={true} />
-        <main className="py-[8.5%] pb-[0.05px] bg-slate-500 mx-[10%]">
+        <main className="py-[8.5%] pb-[0.05px] mx-[10%]">
           <TeamTile
             name="John Doe"
             position="your orientation position"
