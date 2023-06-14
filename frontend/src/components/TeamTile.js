@@ -21,9 +21,9 @@ function TeamTile({ name, position, about, imageName, isLeftAligned }) {
 
   return (
     <div className={isLeftAligned ? "flex justify-start" : "flex justify-end"}>
-      <div className="relative rounded-l-[12%] overflow-hidden max-w-[65%] mb-[12%]">
-        <img src={"./person-background.svg"}></img>
-        <img src={imageName} className="absolute left-0 bottom-0 max-h-full" />
+      <div className="relative overflow-hidden max-w-[65%] mb-[12%]">
+        <img src={"./person-background.svg"} alt="cardbg"></img>
+        <img src={imageName} className="absolute left-0 bottom-0 max-h-full" alt="profilepic"/>
         <div className="absolute top-0 left-[34%] right-[10%] p-3 pl-100">
           <h2 className="font-[700] text-3xl text-[#000000] -mb-1.5">
             {displayName}
