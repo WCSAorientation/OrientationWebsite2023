@@ -4,7 +4,7 @@ export function NavBar({ isDark }) {
   return (
     <>
     <div 
-      className={`flex pt-3 pb-2 mx-[10%] justify-center text-lg border-b-2 ${isDark ? 'text-white border-white' : 'text-[#182E2E]'}`}
+      className={`flex pt-3 pb-2 mx-10 justify-center text-lg border-b-2 ${isDark ? 'text-white border-white' : 'text-[#182E2E]'}`}
     >
       <h1 className='tracking-wide pr-[45%]'>
         WOODSWORTH
