@@ -2,7 +2,7 @@ import { NavBar } from "../components/NavBar";
 
 export const  Schedule = () => {
     return (
-        <div className='bg-cover min-h-screen bg-[#182e2e]'>
+        <div className='bg-cover min-h-screen bg-[#182e2e] pb-[100px]'>
             <NavBar isDark={true}/>
             <h1 className='text-center pt-[100px] pb-6 text-white text-6xl text-bold'>SCHEDULE</h1>
             <div className='flex justify-center mt-10'>
