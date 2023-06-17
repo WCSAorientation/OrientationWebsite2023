@@ -8,7 +8,7 @@ export function Home() {
       <>
       <NavBar isDark={false} />
       <TreeAnimation className='z-0'/>
-      <div className='text-center pt-[5%] px-[20%] text-[#182e2e]'>
+      <div className='text-center pt-[5%] px-2 md:px-8 lg:px-[300px] text-[#182e2e] '>
         <h1 className='font-bold text-7xl'>Woodsworth College Orientation 2023</h1>
         <body className='font-bold'>September 4th to September 9th</body>
       </div>
