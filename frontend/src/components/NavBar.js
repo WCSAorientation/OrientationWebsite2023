@@ -15,7 +15,7 @@ export function NavBar({ isDark }) {
         <a href={'/schedule'}><h1 className='hover:cursor-pointer'>schedule</h1></a>
         <a href={'/team'}><h1 className='hover:cursor-pointer'>team</h1></a>
         <a href={'/sponsors'}><h1 className='hover:cursor-pointer'>sponsors</h1></a>
-        <a href={'/more'}><h1 className='hover:cursor-pointer'>more</h1></a>
+        <a href={'/faq'}><h1 className='hover:cursor-pointer'>FAQ</h1></a>
       </div>
     </div>
     </>

@@ -17,9 +17,17 @@ export default function Faq() {
   }
   return (
     <>
-      <body className="bg-[#182E2E] min-h-max">
+      <body className="bg-[#182E2E]">
         <NavBar isDark={true} />
-        <main className="h-screen grid place-items-centre">
+        <div className='columns-2 gap-8 px-[15%] py-[2%]'>
+          <div className=''>
+            <h1 className='mb-[-5%] col-1 text-[70px] first-letter:text-[87px]  first-letter:font-extrabold font-bold text-white first-letter:text-[#f0d8a6]'>Frequently</h1>
+            <h1 className='mb-[-5%] col-1 text-[70px] first-letter:text-[87px]  first-letter:font-extrabold font-bold text-white first-letter:text-[#f0d8a6]'>Asked</h1>
+            <h1 className='col-1 text-[70px] first-letter:text-[87px] first-letter:font-extrabold font-bold text-white first-letter:text-[#f0d8a6]'>Questions</h1>
+          </div>
+          <img src='./pawprint.svg' alt='pawprint'/>
+        </div>
+        <main className="grid place-items-centre pb-10">
           <div className='w-1065/1440'>
 
             {faqQuestions.map((data, index) => {
