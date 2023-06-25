@@ -4,6 +4,7 @@ import { NotFound } from "./pages/NotFound";
 import { Home } from "./pages/Home";
 import Team from "./pages/Team";
 import { Sponsors } from './pages/Sponsors';
+import FAQ from './pages/FAQ';
 
 function App() {
   return (
@@ -23,7 +24,7 @@ function App() {
             <Route path="/schedule" element={<Schedule/>}/>
             <Route path="/sponsors" element={<Sponsors/>} />
             <Route path="/team" element={<Team />} />
-
+            <Route path="/more" element={<FAQ />} />
 
             <Route path="*" element={<NotFound/>}/>
           </Routes>
