@@ -31,7 +31,7 @@ export default function Faq() {
           <div className='w-1065/1440'>
 
             {faqQuestions.map((data, index) => {
-              return <FaqAccordion key={index} open={index === open} question={data.question} answer={data.answer} toggle={() => toggle(index)} />;
+              return <FaqAccordion key={index} question={data.question} answer={data.answer} toggle={() => toggle(index)} />;
             })}
           </div>
 
