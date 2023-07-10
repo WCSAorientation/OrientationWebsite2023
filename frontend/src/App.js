@@ -4,6 +4,7 @@ import { NotFound } from "./pages/NotFound";
 import { Home } from "./pages/Home";
 import Team from "./pages/Team";
 import { Sponsors } from './pages/Sponsors';
+import ContactUs from './pages/ContactUs';
 import FAQ from './pages/FAQ';
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
             <Route path="/sponsors" element={<Sponsors/>} />
             <Route path="/team" element={<Team />} />
             <Route path="/faq" element={<FAQ />} />
+            <Route path="/contact" element={<ContactUs />} />
 
             <Route path="*" element={<NotFound/>}/>
           </Routes>
