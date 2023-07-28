@@ -14,11 +14,9 @@ function App() {
           <link href='https://fonts.googleapis.com/css?family=Outfit' rel='stylesheet'></link>
           <link rel="preconnect" href="https://fonts.googleapis.com"/>
           <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-          <link
-          href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
-          rel="stylesheet"
-        ></link>
-        </head> 
+          <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet"></link>
+          <link rel="stylesheet" href="https://unpkg.com/flowbite@1.4.5/dist/flowbite.min.css" />
+        </head>
           <Routes>
             <Route path="/" element={<Home/>} />
             <Route path="/home" element={<Home/>} />
@@ -27,7 +25,6 @@ function App() {
             <Route path="/team" element={<Team />} />
             <Route path="/faq" element={<FAQ />} />
             <Route path="/contact" element={<ContactUs />} />
-
             <Route path="*" element={<NotFound/>}/>
           </Routes>
       </Router>
