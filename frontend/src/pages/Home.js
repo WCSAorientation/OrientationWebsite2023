@@ -11,12 +11,12 @@ export function Home() {
         <NavBar isDark={false} />
           <div className='text-center pt-[5%]  text-[#182e2e] '>
             <div className='text-4xl px-2'><h1 className='font-bold md:px-[15%] md:text-8xl '>Woodsworth College Orientation 2023</h1></div>
-            <body className='font-bold py-4 md:py-10 md:text-2xl'>September 4th to September 9th</body>
+            <h1 className='font-bold pt-4 pb-1 px-10 md:px-0 md:py-10 md:text-2xl'>September 4th, 9:00 a.m. – September 9th, 11:00 p.m.</h1>
           </div>
-          <a href='/tickets'>
+          <a href='https://www.woodsworth-orientation.com/event-details/woodsworth-orientation-2023'>
           <div className='flex justify-center'>
           <div className='text-center mt-[20%] md:mt-[5%] py-2 px-5 relative bg-[#182e2e] rounded-[30px] tracking-[.25em] text-white font-bold text-lg hover:cursor-pointer'>
-            <h1>BUY TICKETS</h1>
+            <h1>BUY TICKETS </h1>
           </div>
           </div>
           </a>
@@ -28,7 +28,7 @@ export function Home() {
                 Discover The <span className='text-[#f0d8a6]'>Wolf</span> In You.
               </h1></div>
               <h2 className='mt-4 text-white mb-10'>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis lorem magna, volutpat eget dapibus vel, convallis ut felis.
+              Orientation is our biggest event of the year and is an excellent way to become familiar with the  Woodsworth community before the school year begins. This year's orientation program will run from Monday September 4th to Saturday September 9th. We've planned an entire week full of fun and comprehensive events to smoothen your transition into university.
               </h2>
               <a href='/more'>
                 <div className='flex justify-center '>
