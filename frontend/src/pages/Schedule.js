@@ -4,10 +4,10 @@ export const  Schedule = () => {
     return (
         <div className='bg-cover min-h-screen bg-[#182e2e] pb-[100px]'>
             <NavBar isDark={true}/>
-            <h1 className='text-center pt-[100px] pb-6 text-white text-6xl text-bold'>SCHEDULE</h1>
-            <div className='flex justify-center mt-10'>
-            <div className='mx-[10%] bg-white rounded-[40px] w-[1056px] h-[585px]'>
+            <div className='text-center pt-[5%] pb-6 text-white text-4xl text-bold'>
+                <h1 className="md:text-6xl">SCHEDULE</h1>
             </div>
+            <div className='flex justify-center'>
             </div>
         </div>
     );

@@ -7,7 +7,7 @@ export default function FaqAccordion({question, answer}) {
 
     return (
         <div className="pb-[20px]">
-            <div className= "bg-[#F0D8A6] py-[20px] px-[50px] mx-[10%] rounded-[20px] text-[#182E2E] cursor-pointer" onClick={(e) => {e.preventDefault();setOpened(!opened)}}>
+            <div className= "bg-[#F0D8A6] py-[20px] px-[20px] md:px-[50px] mx-[10%] rounded-[20px] text-[#182E2E] cursor-pointer" onClick={(e) => {e.preventDefault();setOpened(!opened)}}>
                 <div className="flex justify-between items-center">
                     <p className="text-[25px] font-semibold ">{question}</p>
                     <div className="text-[30px] text-[#182E2E]">
@@ -22,7 +22,9 @@ export default function FaqAccordion({question, answer}) {
                     </div>
                 </div>
                 <Collapse isOpened={opened}>
-                    <div className={"bg-[#F0D8A6] px-[50px] font-medium text-lg pb-[20px]>{desc} transition-all delay-150 duration-300 overflow-hidden w-full "}>{answer}</div>
+                    <div className={"bg-[#F0D8A6] md:px-[50px] font-medium text-md pb-[20px]>{desc} transition-all delay-150 duration-300 overflow-hidden w-full "}>
+                        <h1 className="md:text-lg">{answer}</h1>
+                    </div>
                 </Collapse>
             </div>
         </div>

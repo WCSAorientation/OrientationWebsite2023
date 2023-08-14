@@ -8,7 +8,7 @@ function Team() {
     <>
       <body className="bg-[#182E2E] min-h-screen">
         <NavBar isDark={true} />
-        <main className="py-[8.5%] pb-[0.05px] mx-[10%]">
+        <main className="py-[8.5%] pb-[0.05px] mx-3 md:mx-[5%] flex flex-wrap items-center justify-center">
           {teamInfo.map((memberInfo, index) => (
             <TeamTile
             key={index}

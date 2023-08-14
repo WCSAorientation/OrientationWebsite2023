@@ -17,7 +17,7 @@ export function NavBar({ isDark }) {
         <div className="hidden w-full md:block md:w-auto rounded " id="navbar-default">
           <ul className={`font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0 ${isDark? 'bg-[#152727] md:bg-[#182E2E]' : 'bg-[#e5e7eb] md:bg-[#ffffff]'}`}>
             <li><a href="/" className={`block py-2 pl-3 pr-4 md:hover:bg-transparent md:border-0 md:p-0 ${isDark? 'md:hover:text-[#eae0cb]' : 'md:hover:text-[#2e5a5a]'}`} aria-current="page">Home</a></li>
-            <li><a href="/tickets" className="block py-2 pl-3 pr-4 md:hover:bg-transparent md:border-0 md:p-0">Tickets</a></li>
+            <li><a href="https://www.woodsworth-orientation.com/event-details/woodsworth-orientation-2023" className="block py-2 pl-3 pr-4 md:hover:bg-transparent md:border-0 md:p-0">Tickets</a></li>
             <li><a href="/schedule" className="block py-2 pl-3 pr-4 md:hover:bg-transparent md:border-0 md:p-0">Schedule</a></li>
             <li><a href="/team" className="block py-2 pl-3 pr-4 md:hover:bg-transparent md:border-0 md:p-0">Team</a></li>
             <li><a href="/sponsors" className="block py-2 pl-3 pr-4 md:hover:bg-transparent md:border-0 md:p-0">Sponsors</a></li>
